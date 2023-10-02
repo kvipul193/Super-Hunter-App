@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- Navigation for home page -->
+    <headear>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/">Super-Hero</a></li>
+                <li><a href="fav.html">Favourites</a></li>
+            </ul>
+        </nav>
+    </headear>
+    <div class="container" >
+        <div class="input-container">
+          
+            <!-- Search bar and submit button for hero search -->
+            <input type="text" class="input-box" value="iron man" id="input-box">
+            <buttton id="submit-button" class="button">submit</buttton>
+
+        </div>
+        <!-- list container:- Display list of suggesttion when typing in search bar -->
+        <div class="list"></div>
+         
+        <!-- display-container:- Display selected Super-Hero -->
+        <div class="display-container" id="show-container"></div>
+    </div>
+    <!-- Uses browserfiy t to use module property in browrser -->
+    <script src="./js/bundle.js"></script>
+  
+</body>
+</html>
